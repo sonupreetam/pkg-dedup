@@ -31,3 +31,13 @@ var/cache/ldconfig/
 var/lib/rhsm/
 var/lib/portables/
 var/lib/private/
+
+# Keep all code and project files
+!*.py
+!*.js
+!*.yaml
+!*.json
+!*.tf
+!*.txt
+!*.md
+!*.sh
