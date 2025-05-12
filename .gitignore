@@ -1,0 +1,33 @@
+
+# Ignore system and personal config files
+.*
+!/.gitignore
+!.git/
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+
+
+# Just in case you add these by accident elsewhere
+*~              # Editor backup files
+node_modules/
+__pycache__/
+*.swp           # vi/vim swap files
+.DS_Store       # macOS Finder metadata
+Thumbs.db       # Windows image cache
+*.log           # Log files
+*.bak           # Backup files
+
+# Optional: Ignore system files (e.g., passwd, shadow)
+etc/passwd
+etc/shadow
+etc/gshadow
+
+# Ignore root directories that may be extracted from images
+root/
+lost+found/
+var/cache/ldconfig/
+var/lib/rhsm/
+var/lib/portables/
+var/lib/private/
